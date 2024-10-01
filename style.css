@@ -1,0 +1,252 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(142, 145, 148);
+}
+.container {
+  width: 1440px;
+  margin: 0 auto;
+  background-color: white;
+}
+button {
+  cursor: pointer;
+}
+a {
+  width: 68px;
+  height: 28px;
+  text-decoration: none;
+  color: rgba(37, 43, 66, 1);
+}
+nav {
+  padding: 27px 40px 27px 70px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0.20000000298023224px;
+}
+
+nav div {
+  margin-top: 53px;
+  display: flex;
+  gap: 90px;
+  justify-content: center;
+  align-content: center;
+}
+
+main {
+  background-image: url(./bacimg1.jpg);
+  padding: 73px 217px 146px 217px;
+  text-align: center;
+}
+main h1 {
+  font-family: Poppins;
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  color: white;
+}
+main h3 {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: center;
+  color: white;
+}
+.home {
+  color: rgba(250, 74, 12, 1);
+}
+h4 {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  color: rgba(246, 246, 246, 1);
+  margin: 44px auto;
+}
+.btn1 {
+  margin-right: 34px;
+  background: rgba(250, 74, 12, 1);
+}
+.btn2 {
+  background-color: transparent;
+  border: 1px solid white;
+}
+main button {
+  padding: 20px 60px;
+  border-radius: 30px;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+.tel {
+  position: relative;
+  margin-left: 300px;
+  margin-top: -280px;
+  background-color: transparent;
+}
+.section p {
+  font-family: Poppins;
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: center;
+}
+.section2 {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: auto auto;
+  padding: 0px 177px;
+}
+
+.div1 {
+  width: 568px;
+  padding: 280px 110px 0px 0px;
+}
+.div1 h2 {
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  margin: 20px 0px;
+}
+.div1 h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+  color: rgba(250, 74, 12, 1);
+}
+.div1 h4 {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: rgba(115, 115, 115, 1);
+}
+hr {
+  margin-bottom: 73px;
+  width: 884px;
+  height: 0px;
+  margin: 73px 276px;
+  border: 3px solid rgba(228, 228, 228, 1);
+}
+.sc3 {
+  margin-left: 130px;
+  margin-top: 0px;
+}
+.main2 {
+  background-image: url(./bcimg2.jpg);
+  padding: 140px 290px 110px;
+  text-align: center;
+}
+.main2 h2 {
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  color: white;
+}
+.main2 h4 {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  margin: 40px 0px 60px;
+}
+.btn3 {
+  padding: 20px 30px;
+  margin-right: 34px;
+  background: rgba(250, 74, 12, 1);
+  border-radius: 10px;
+  color: white;
+  border: none;
+}
+.btn4 {
+  padding: 20px 45px;
+  border-radius: 10px;
+
+  color: white;
+}
+.divf {
+  display: grid;
+  justify-content: space-between;
+  align-content: center;
+  grid-template-columns: auto auto auto;
+  padding: 40px 115px 40px 168px;
+  align-content: center;
+}
+.imss {
+  margin-top: 43px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.imgg {
+  margin-left: -30px;
+}
+.divf p {
+  margin-top: 43px;
+}
+.mob_men{
+  display: none;
+}
+input{
+  display: none;
+}
+.test{
+  transform: translateX(-100%);
+}
+@media (max-width: 768px) {
+
+.mob_men{
+  
+  transform: translateX(-100);
+}
+nav{
+  display: none;
+}
+.dd {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 100px;
+  
+  align-items: center;
+  
+  
+}
+.dd p{
+  font-size: 40px;
+}
+.mob_men h1{
+  margin-top: 15px;
+}
+.inp_c :checked{
+  display: block;
+  transform: translateX(0);
+}
+
+
+}
